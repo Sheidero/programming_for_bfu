@@ -63,7 +63,6 @@ bool WordContain(std::string itog[], int n, std::string word) {
 
 int main()
 {
-    char a[5] = "Я";
     int n;
     std::cin >> n;
     std::string words[10000];
