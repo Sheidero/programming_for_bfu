@@ -26,7 +26,7 @@ int main() {
     Cube cube(12);
     
     std::cout << "Куб" << std::endl;
-    std::cout << " __ " << "\n" << "|  |" << "\n" << "|__|" << "\n"<< "" << std::endl;
+    std::cout << " ___ " << "\n" << "|   |" << "\n" << "|___|" << "\n"<< "" << std::endl;
     std::cout << "Длина стороны = " << cube.getSide() << std::endl;
     std::cout << "Объём = " << cube.getVolume() << std::endl;
 
