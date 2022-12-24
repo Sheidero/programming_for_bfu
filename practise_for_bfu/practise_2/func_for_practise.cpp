@@ -83,9 +83,14 @@ void slojenie(char a[1001],char b[1001])
         rez[i] += rez[i+1] / 10;
         rez[i+1] %= 10;
     }
+    bool start_chislo = 0;
     for (int i = 0;i<n+1;i++)
     {
-        std::cout << rez[i];
+        if (not(not(start_chislo) and rez[i] == 0))
+        {
+            start_chislo = 1;
+            std::cout << rez[i];
+        }
     }
     std::cout << "\n";
 }
