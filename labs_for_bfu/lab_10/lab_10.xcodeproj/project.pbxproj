@@ -42,7 +42,6 @@
 		66ADF6E528CC6DC6003A00E1 = {
 			isa = PBXGroup;
 			children = (
-				66C6511129571AF2004E56E8 /* lab_10.cpp */,
 				66C6510D29571ADE004E56E8 /* lab_10 */,
 				66ADF6EF28CC6DC6003A00E1 /* Products */,
 			);
@@ -59,6 +58,7 @@
 		66C6510D29571ADE004E56E8 /* lab_10 */ = {
 			isa = PBXGroup;
 			children = (
+				66C6511129571AF2004E56E8 /* lab_10.cpp */,
 				66C6510E29571ADE004E56E8 /* lab_10.xcodeproj */,
 			);
 			name = lab_10;

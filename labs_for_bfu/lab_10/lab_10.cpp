@@ -40,6 +40,10 @@ public:
         }
         std::cout << "\n";
     }
+    ~Teachers() {
+        m_students.clear();
+        std::cout << "Everything is clear" << std::endl;
+    }
 };
 
 int main()
@@ -47,8 +51,8 @@ int main()
     std::vector<Students> students;
     students.push_back(Students("Aleksei"));
     students.push_back(Students("Homer"));
-
     Teachers *teacher = new Teachers(students, "Aleksandr");
     teacher -> getTeacher();
     teacher -> printStudents();
-}
+    delete teacher;
+    }
