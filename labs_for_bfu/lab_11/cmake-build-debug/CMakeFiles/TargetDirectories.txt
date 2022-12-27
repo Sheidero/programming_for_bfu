@@ -1,3 +1,0 @@
-/Users/artemgavrikov/Documents/programming_for_bfu/labs_for_bfu/lab_11/cmake-build-debug/CMakeFiles/lab_11.dir
-/Users/artemgavrikov/Documents/programming_for_bfu/labs_for_bfu/lab_11/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/artemgavrikov/Documents/programming_for_bfu/labs_for_bfu/lab_11/cmake-build-debug/CMakeFiles/rebuild_cache.dir
