@@ -1,11 +1,24 @@
-#include <iostream>
+#include <SFML/Graphics.hpp>
 
 int main()
 {
-    int a = 0;
-    int b = INT_MAX;
-    std::cout << a << std::endl;
-    std::cout << b << std::endl;
-    std::cout << b + 1 << std::endl;
+    sf::RenderWindow window(sf::VideoMode(1000, 1000), "lab_11!");
+    sf::CircleShape shape(100.f);
+    shape.setFillColor(sf::Color::Green);
+
+    while (window.isOpen())
+    {
+        sf::Event event;
+        while (window.pollEvent(event))
+        {
+            if (event.type == sf::Event::Closed)
+                window.close();
+        }
+
+        window.clear();
+        window.draw(shape);
+        window.display();
+    }
+
     return 0;
 }
